@@ -14,9 +14,12 @@
         "internalPort": 52773
       },
       "links": {
+        "FHIR SQL Demo": "http://localhost:${port}/csp/fhirsql/index.csp",
+        "SQL Query": "http://localhost:${port}/csp/sys/exp/%25CSP.UI.Portal.SQL.Home.zen?$NAMESPACE=FHIRSERVER",
+        "FHIR server test": "http://localhost:${port}/fhir/r4/metadata",
+        "Notebook": "http://localhost:8888",
         "FHIR UI Portal": "http://localhost:${port}/fhir/portal/patientlist.html",
-        "FHIR UI Demo": "http://localhost:${port}/fhirUI/FHIRAppDemo.html",
-        "FHIR server test": "http://localhost:${port}/fhir/r4/metadata"
+        "FHIR UI Demo": "http://localhost:${port}/fhirUI/FHIRAppDemo.html"
       }
     },
     "sqltools.connections": [
